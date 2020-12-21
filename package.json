@@ -1,0 +1,26 @@
+{
+  "name": "parcel-lit-element",
+  "version": "1.0.0",
+  "description": "**Base config for LitElement (WebComponents)** </br> Note: This is ONLY for front end code, goal is to create a lightweight base project package. </br> Note*: DOES NOT SUPPORT IE or OLD EDGE </br>",
+  "main": "index.js",
+  "dependencies": {
+    "@vaadin/router": "^1.7.2",
+    "@vaadin/vaadin-button": "^2.4.0",
+    "@vaadin/vaadin-text-field": "^2.8.1",
+    "lit-element": "^2.4.0",
+    "parcel": "^1.12.4",
+    "phaser": "^3.50.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "build:server": "http-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
