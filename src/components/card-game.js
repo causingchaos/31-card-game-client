@@ -1,6 +1,8 @@
 import { html, LitElement } from 'lit-element';
 import Phaser from 'phaser';
 import Game from '../scenes/game.js';
+//import BootScene from '../scenes/BootScene.js';
+//import PreloaderScene from '../scenes/PreloaderScene.js';
 
 export const config = {
   type: Phaser.AUTO,
@@ -8,7 +10,7 @@ export const config = {
   width: 800,
   height: 800,
   scene: [
-    Game
+    Game,
   ]
 };
 
